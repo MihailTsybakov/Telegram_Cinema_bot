@@ -18,7 +18,7 @@ ff_profile.set_preference('dom.prototype_document_cache.enabled', False)
 ff_profile.set_preference('extensions.getAddons.cache.enabled', False)
 
 
-driver = webdriver.Firefox(executable_path = 'C:\\Users\\mihai\\Desktop\\progy\\Additional\\geckodriver.exe', 
+driver = webdriver.Firefox(executable_path = 'geckodriver.exe', 
                            options = driver_options)
 
 directory = 'thriller'
